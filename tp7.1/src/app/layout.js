@@ -25,10 +25,11 @@ export default function RootLayout({ children }) {
       <body suppressHydrationWarning={true}>
         <div className={styles.container}>
           <Sidebar />
-          <main className={styles.main}>
+
+        </div>
+        <main className={styles.main}>
             {children}
           </main>
-        </div>
       </body>
     </html>
   );

@@ -1,13 +1,13 @@
-import Image from "next/image";
-import Layout from "./styles/Layout.module.css";
+import Layout from "./layout";
 
-export default function Home() {
+const Home =() => {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-
+    <div>
+      <main >
+        <text> 1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</text>
       </main>
 
     </div>
   );
 }
+export default Home

@@ -2,7 +2,7 @@
     width: 200px;
     height: 100vh;
     position: fixed;
-    background-color: #f0f0f0;
+    background-color: #afebf3;
     padding: 20px;
 }
 
@@ -16,10 +16,17 @@
 }
 
 .sidebar ul li {
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 .sidebar ul li a {
     text-decoration: none;
     color: #333;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.sidebar ul li a:hover {
+    background-color:#223133;
+    color: #f0f0f0;
 }
