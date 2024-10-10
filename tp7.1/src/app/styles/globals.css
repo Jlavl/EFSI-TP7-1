@@ -40,3 +40,15 @@ a {
     color-scheme: dark;
   }
 }
+.hh {
+  display: flex;
+  color:aqua;
+}
+input {
+  background-color: aquamarine;
+  border-color: #0a0a0a;
+}
+
+input .ingremail {
+  background-color: #171717;
+}

@@ -1,8 +1,14 @@
+
+
 const Contacto =() => {
     return (
       <div>
         <main >
-          <text type="input"> Ingresar tu email</text>
+          <h1 id="hh"> Dudas? Contactanos!</h1>
+          <form>
+            <input type="text"  placeholder={"Aqui puedes escribir tu duda."} size="70" maxLength="999"/>
+            <input type="submit" id="submit"/>
+          </form>
         </main>
   
       </div>
