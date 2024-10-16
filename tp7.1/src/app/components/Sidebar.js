@@ -7,12 +7,12 @@ const Sidebar = () => {
 return (
 <div className={styles.sidebar}>
     <h2>Navegación</h2>
-    <ul>
-    <li><Link href="/">Home</Link></li>
-    <li><Link href="/productos">Productos</Link></li>
-    <li><Link href="/detalleprod">detalleProd</Link></li>
-    <li><Link href="/contacto">Contactanos</Link></li>
-    </ul>
+    
+    <text ><Link href="/">Home</Link></text>
+    <text><Link href="/productos">Productos</Link></text>
+    <text><Link href="/detalleprod">detalleProd</Link></text>
+    <text><Link href="/contacto">Contactanos</Link></text>
+    
 </div>
 );
 };

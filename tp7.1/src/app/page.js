@@ -1,11 +1,11 @@
 import Layout from "./layout";
-
+import Image from 'next/image'
 const Home =() => {
   return (
     <div>
       <main >
         <text> 1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</text>
-        
+        <Image src="/image/shampoo1.jpg" width="150" height={150}></Image>
         
       </main>
 

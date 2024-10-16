@@ -4,12 +4,10 @@
 
 .main {
     
-margin-left: 220px;
-padding: 20px;
+margin-top: 50px;
+padding-left: 20px;
+padding-top: 50px;
+padding-right: 20px;
+padding-bottom: 20px;
 width: calc(100% - 220px);
-}
-
-.hh {
-    display: flex;
-    color:aqua;
 }

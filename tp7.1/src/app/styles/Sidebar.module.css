@@ -1,32 +1,28 @@
 .sidebar {
-    width: 200px;
-    height: 100vh;
+    display: flex ;
+    width: 200vh;
+    height: 80px;
     position: fixed;
-    background-color: #afebf3;
+    background-image: linear-gradient(#caf9ff,#8ad6e0);
     padding: 20px;
 }
 
 .sidebar h2 {
-    text-align: center;
+    text-align: left;
 }
 
-.sidebar ul {
-    list-style-type: none;
-    padding: 0;
+.sidebar text {
+    margin: 20px;
+    width: 40px;
 }
 
-.sidebar ul li {
-    margin: 40px 0;
-}
-
-.sidebar ul li a {
+.sidebar text a {
     text-decoration: none;
     color: #333;
-    margin: 20px 0;
-    padding: 20px 0;
+
 }
 
-.sidebar ul li a:hover {
+.sidebar a:hover {
     background-color:#223133;
     color: #f0f0f0;
 }

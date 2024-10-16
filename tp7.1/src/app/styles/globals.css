@@ -42,13 +42,22 @@ a {
 }
 .hh {
   display: flex;
-  color:aqua;
+  color: #4499cd;
+  border-width: 2px;
+  align-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
 }
-input {
-  background-color: aquamarine;
-  border-color: #0a0a0a;
+.contactduda {
+  display: flex;
+  justify-content: center;
+  background-color: #28adbe;
+  color: aqua;
 }
-
-input .ingremail {
-  background-color: #171717;
+.submit {
+  display: flex;
+  justify-content: center;
+  background-color: #28be85;
+  color: rgb(27, 255, 20);
 }
