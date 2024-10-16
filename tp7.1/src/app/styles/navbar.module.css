@@ -1,0 +1,32 @@
+.navbar {
+display: flex;
+    width: 200vh;
+    height: 80px;
+    position: fixed;
+    background-image: linear-gradient(#caf9ff, #8ad6e0);
+    padding: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: row;
+
+}
+
+.navbar h2 {
+    text-align: left;
+}
+
+
+
+.navbar text a {
+    text-decoration: none;
+    color: #333;
+    display:inline;
+    padding: 31px;
+}
+
+.navbar a:hover {
+    background-color:#8ad6e0;
+    color: #f0f0f0;
+    font-style: oblique;
+}

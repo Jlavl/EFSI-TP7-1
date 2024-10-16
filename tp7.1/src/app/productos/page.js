@@ -3,11 +3,9 @@ import Image from 'next/image'
 const Productos =() => {
     return (
       <div>
-        <main >
           <text> 2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</text>
-          
-        </main>
-  
+          <input type="text" className="busquedap"
+            placeholder={"Busca algun producto! Ejemplo: Shampoo Dove"} size="70" maxLength="999"/>
       </div>
     );
   }

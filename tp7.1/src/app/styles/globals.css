@@ -40,6 +40,20 @@ a {
     color-scheme: dark;
   }
 }
+.imagenesrand {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.imgr {
+  padding: 10px;
+  margin: 10px;
+  border-width: 10px;
+  border-radius: 15px;
+  border-color: #0a0a0a;
+  background-color: #68b4be;
+}
+
 .hh {
   display: flex;
   color: #4499cd;
@@ -48,6 +62,13 @@ a {
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
+}
+.busquedap {
+  display: flex;
+  justify-content: center;
+  background-color: #7fd2dd;
+  color: rgb(11, 49, 49);
+  
 }
 .contactduda {
   display: flex;
@@ -60,4 +81,8 @@ a {
   justify-content: center;
   background-color: #28be85;
   color: rgb(27, 255, 20);
+}
+.formc {
+  display: flex;
+  justify-content: center;
 }

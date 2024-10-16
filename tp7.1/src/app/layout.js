@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./styles/globals.css";
-import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar";
 import styles from "./styles/Layout.module.css"
 
 const geistSans = localFont({
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
     <html>
       <body suppressHydrationWarning={true}>
         <div className={styles.container}>
-          <Sidebar />
+          <Navbar />
 
         </div>
         <main className={styles.main}>

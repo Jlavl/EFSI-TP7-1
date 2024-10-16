@@ -3,12 +3,15 @@ import Image from 'next/image'
 const Home =() => {
   return (
     <div>
-      <main >
-        <text> 1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</text>
-        <Image src="/image/shampoo1.jpg" width="150" height={150}></Image>
-        
-      </main>
-
+      <text> 1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</text>
+      <div className="imagenesrand">
+        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}></Image>
+        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}></Image>
+        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}></Image>
+        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}></Image>
+        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}></Image>
+        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}></Image>
+      </div>
     </div>
   );
 }
