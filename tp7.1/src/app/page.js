@@ -1,16 +1,21 @@
 import Layout from "./layout";
-import Image from 'next/image'
+import Image from 'next/image';
+import { conseguirProductos } from "./components/RecibirImagen";
+
+
+
+
 const Home =() => {
   return (
     <div>
       <text> INFORMACION</text>
       <div className="imagenesrand">
-        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}></Image>
-        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}></Image>
-        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}></Image>
-        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}></Image>
-        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}></Image>
-        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}></Image>
+        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300} alt="shampoo"></Image>
+        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}alt="shampoo"></Image>
+        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}alt="shampoo"></Image>
+        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}alt="shampoo"></Image>
+        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}alt="shampoo"></Image>
+        <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}alt="shampoo"></Image>
       </div>
     </div>
   );
