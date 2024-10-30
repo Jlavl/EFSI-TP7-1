@@ -4,7 +4,7 @@ const Contacto =() => {
     return (
       <div>
         <main >
-          <h1 className="hh"> Tienes una duda o algun problema? Contactanos!</h1>
+          <h1 className="hh"> Tenes alguna duda o problema? Contactanos!</h1>
           <form>
             <div className="formc">
             <input type="text" className="contactduda"

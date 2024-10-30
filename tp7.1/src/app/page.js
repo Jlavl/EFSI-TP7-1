@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Home =() => {
   return (
     <div>
-      <text> 1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</text>
+      <text> INFORMACION</text>
       <div className="imagenesrand">
         <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}></Image>
         <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}></Image>
