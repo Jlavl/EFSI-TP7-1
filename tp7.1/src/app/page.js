@@ -1,14 +1,17 @@
 import Layout from "./layout";
 import Image from 'next/image';
-import { conseguirProductos } from "./components/RecibirImagen";
+import { conseguirProductos } from "./components/RecibirProductos";
+import React, { useState, useEffect } from "react"
+const [loading, setLoading] = useState(false);
 
+useEffect(() => {
 
-
+});
 
 const Home =() => {
   return (
     <div>
-      <text> INFORMACION</text>
+      <h3> INFORMACION</h3>
       <div className="imagenesrand">
         <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300} alt="shampoo"></Image>
         <Image className="imgr" src="/image/shampoo1.jpg" width="300" height={300}alt="shampoo"></Image>

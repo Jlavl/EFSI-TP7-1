@@ -2,7 +2,7 @@ const detalleProd =() => {
     return (
       <div>
         <main >
-          <text> 3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</text>
+          <h3> 3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</h3>
         </main>
   
       </div>
