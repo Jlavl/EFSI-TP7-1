@@ -1,12 +1,13 @@
-import Layout from "./layout";
+
+ import Layout from "./layout";
 import Image from 'next/image';
 import { conseguirProductos } from "./components/RecibirProductos";
-import React, { useState, useEffect } from "react"
-const [loading, setLoading] = useState(false);
+//import React, { useEffect } from "react"
+//const [loading, setLoading] = useState(false);
 
-useEffect(() => {
+/*useEffect(() => {
 
-});
+});*/
 
 const Home =() => {
   return (
