@@ -9,7 +9,6 @@ console.log(response);
 return response;
 }
 
-conseguirProductos(); 
 
 // funcion para categorizar
 
